@@ -1,3 +1,7 @@
+require('./models/User');
+
+// const usersRouter = require('./routes/api/users');
+
 const express = require("express");
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
